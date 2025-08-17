@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEE MARYA COLLECTIONS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>SHEE MARYA COLLECTIONS</h1>
+    <p>Where dreams come home.</p>
+</header>
+
+<section id="products">
+    <h2>PRODUCTS</h2>
+    <ol>
+        <li>WARDROBE
+            <ul>
+                <li>Plastic wardrobe</li>
+                <li>Metallic wardrobe</li>
+            </ul>
+        </li>
+        <li>DUVETS
+            <ul>
+                <li>Binded duvets</li>
+                <li>Unbinded duvets</li>
+            </ul>
+        </li>
+        <li>NETS
+            <ul>
+                <li>Round nets</li>
+                <li>Four stand nets</li>
+            </ul>
+        </li>
+        <li>BEDSHEETS
+            <ul>
+                <li>Flat</li>
+                <li>Fitted</li>
+            </ul>
+        </li>
+    </ol>
+</section>
+
+<section id="households">
+    <h2>HOUSEHOLDS INFO</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Type</th>
+                <th>Color</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wardrobe</td>
+                <td>Canvas</td>
+                <td>Navy blue</td>
+                <td>Metallic 2800 - Plastic 5000</td>
+            </tr>
+            <tr>
+                <td>Duvets</td>
+                <td>Cotton</td>
+                <td>Light blue</td>
+                <td>Binded 2400 - Unbinded 2000</td>
+            </tr>
+            <tr>
+                <td>Nets</td>
+                <td>Mosquito nets</td>
+                <td>Baby pink</td>
+                <td>Round 1200 - Square 1500</td>
+            </tr>
+            <tr>
+                <td>Bedsheets</td>
+                <td>Cotton</td>
+                <td>White</td>
+                <td>Fitted 2500 - Flat 2000</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section id="order">
+    <h2>TO PLACE AN ORDER</h2>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+
+        <label for="email">Email address:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required autocomplete="email"><br>
+
+        <label for="products">Select products:</label><br>
+        <select id="products" name="products" required>
+            <option value="wardrobe">Wardrobe</option>
+            <option value="nets">Nets</option>
+            <option value="bedsheets">Bedsheets</option>
+            <option value="duvets">Duvets</option>
+        </select><br><br>
+
+        <label>
+            <input type="checkbox" name="terms" required>
+            I agree to the Terms and Conditions
+        </label><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 SHEE MARYA COLLECTIONS. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
